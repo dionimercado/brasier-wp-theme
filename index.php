@@ -248,7 +248,7 @@ s
 		</section>
 
 		<section id="gallery">
-			<header class="py-5">
+			<header class="py-4">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -260,8 +260,8 @@ s
 					</div>
 				</div>
 			</header>
-			<div class="container-fluid m-0 p-0">
-				<div class="row d-none d-lg-flex">
+			<div class="container-fluid">
+				<div class="row">
 					<?php echo do_shortcode( '[elfsight_instagram_feed id="1"]' ) ?>
 				</div>
 			</div>

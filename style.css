@@ -1564,13 +1564,13 @@ footer.footer .copyright p.small {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
-	#header::after{
-		display: none;
-	}
 	#header .navbar-brand > img {
     height: 55px;
 		position: relative;
 		z-index: 99;
+	}
+	#header.shrink .navbar-brand > img {
+		height: 55px;
 	}
 
 	.navbar-nav {
@@ -1631,13 +1631,9 @@ footer.footer .copyright p.small {
 	#menu {
 		margin-top: 10px;
 	}
-	#bocaditos-menu>a {
-    border: 0px;
-    border-radius: 0;
-    text-transform: uppercase;
-    color: #87cef9;
-    font-size: 0.7rem;
-    padding: 12px 8px;
+	#menu .nav-tabs .nav-item.show .nav-link,
+	#menu .nav-tabs .nav-link {
+		font-size: 18px;
 	}
 	#gallery {
     margin-top: 15px;
@@ -1645,6 +1641,9 @@ footer.footer .copyright p.small {
 	}
 	#newsletter form .input-group .form-control {
     font-size: 1rem;
+	}
+	#newsletter form .btn-primary {
+    padding: .5rem 1rem !important;
 	}
 
 	#rsvp {
@@ -1669,5 +1668,7 @@ footer.footer .copyright p.small {
 	    margin-bottom: 35px;
 	    margin-top: 50px;
 	}
+
+
 
 }
