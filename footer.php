@@ -31,8 +31,8 @@
 			<div class="col-md-4">
 				<div class="contact-details">
 					<h4><i class="far fa-clock"></i> Hours</h4>
-					<p class="mb-0">Mon - Sat from 4 PM to 4 AM</p>
-					<p>Sundays from 2 PM to 4 AM</p>
+					<p class="mb-0">Mon - Friday from 5 PM to 4 AM</p>
+					<p>Sat - Sun from 1 PM to 4 AM</p>
 				</div>
 			</div>
 		</div>
